@@ -7,12 +7,12 @@ return {
   "AstroNvim/astrocommunity",
   -- langagueges
   { import = "astrocommunity.pack.lua" },
-   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.pack.go"}
+  { import = "astrocommunity.pack.go" },
   -- autocompletion
-  {import = "astrocommunity.pack.completion.codeium-vim"}
+  { import = "astrocommunity.pack.completion.codeium-vim" },
   -- import/override with your plugins folder
 }
