@@ -7,6 +7,14 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- langagueges
   { import = "astrocommunity.pack.lua" },
+   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.go"}
+  -- autocompletion
+  {import = "astrocommunity.pack.completion.codeium-vim"}
   -- import/override with your plugins folder
 }
