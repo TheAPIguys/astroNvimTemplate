@@ -13,6 +13,6 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.go" },
   -- autocompletion
-  { import = "astrocommunity.pack.completion.codeium-vim" },
+  { import = "astrocommunity.completion.codeium-vim" },
   -- import/override with your plugins folder
 }
